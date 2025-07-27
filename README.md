@@ -1,0 +1,2 @@
+# libanimation
+Library for animations
