@@ -39,17 +39,17 @@ endforeach()
 
 
 
-list(APPEND INCLUDES "${CMAKE_SOURCE_DIR}/tests/include/")
+list(APPEND INCLUDES "${CMAKE_SOURCE_DIR}/include/")
 
 message(STATUS "Sources found: ${SOURCES}")
 message(STATUS "Include directories found: ${INCLUDES}")
 
 #Directories of the project, that are going to be tested
-file(GLOB_RECURSE SOURCE_MATH_DIRS LIST_DIRECTORIES true "${CMAKE_SOURCE_DIR}../src/math/*")
-file(GLOB_RECURSE INCLUDE_MATH_DIRS LIST_DIRECTORIES true "${CMAKE_SOURCE_DIR}../include/math/*")
+file(GLOB_RECURSE SOURCE_MATH_DIRS LIST_DIRECTORIES true "${CMAKE_SOURCE_DIR}/../src/math/*")
+file(GLOB_RECURSE INCLUDE_MATH_DIRS LIST_DIRECTORIES true "${CMAKE_SOURCE_DIR}/../include/math/*")
 
 set(MATH_INCLUDES "")
-SET(MATH_SOURCES "")
+set(MATH_SOURCES "")
 
 foreach(ITEM ${SOURCE_MATH_DIRS})
 	if(NOT IS_DIRECTORY ${ITEM})
@@ -63,7 +63,10 @@ foreach(ITEM ${INCLUDE_MATH_DIRS})
 	endif()
 endforeach()
 
-add_executable(${PROJECT_NAME} ${SOURCES} ../../src/math/sum.c)
+message(STATUS "Math sources found: ${MATH_SOURCES}")
+message(STATUS "Math includes found: ${MATH_INCLUDES}")
+
+add_executable(${PROJECT_NAME} ${SOURCES} ${MATH_SOURCES})
 
 target_link_libraries(${PROJECT_NAME} PRIVATE GTest::gtest_main)
 include(GoogleTest)
