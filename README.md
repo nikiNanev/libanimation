@@ -6,4 +6,8 @@ Library for Animations 🎦.
 - [ ] Loading objects ( files for animating )
 - [x] Integrating gtest
 - [ ] Linear interpolation
-- [ ] command line options list
+- [x] command line options list
+- [ ] List of supported object files for loading/animating
+- [ ] GUI option ( Imgui )
+- [ ] Creating shared library
+- [ ] Dynamically loading functions
