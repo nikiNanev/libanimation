@@ -1,7 +1,0 @@
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/animation.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/edit_cache.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/rebuild_cache.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/list_install_components.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/install.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/install/local.dir
-/home/aceraspire5/Dev/Projects/Repos/Library/Animation/shared/build/CMakeFiles/install/strip.dir

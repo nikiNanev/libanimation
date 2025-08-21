@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,-soname,libanimation.so.0 -o libanimation.so.0.0.1 CMakeFiles/animation.dir/home/aceraspire5/Dev/Projects/Repos/Library/Animation/src/test.c.o
