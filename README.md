@@ -9,5 +9,5 @@ Library for Animations 🎦.
 - [x] command line options list
 - [ ] List of supported object files for loading/animating
 - [ ] GUI option ( Imgui )
-- [ ] Creating shared library
+- [x] Creating shared library
 - [ ] Dynamically loading functions
