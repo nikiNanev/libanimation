@@ -32,8 +32,8 @@ int load(const char *filename)
 
 		if(handle_file)
 		{
-			char buffer[128];
-			while(fgets(buffer, 128, handle_file))
+			char buffer[LINE_SIZE];
+			while(fgets(buffer, LINE_SIZE, handle_file))
 			{
 				fprintf(stdout, "%s\n", buffer);
 			}

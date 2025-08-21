@@ -13,6 +13,6 @@
 
 int frame_create(/*ToDO*/)
 {
-
+	return 0;
 }
 

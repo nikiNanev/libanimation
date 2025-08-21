@@ -1,5 +1,6 @@
-#include <stdio.h>
+#ifndef TEST_H
+#define TEST_H
 
-#define NUMBER_OF_TESTS 10
+int test(int, int);
 
-int test();
+#endif
