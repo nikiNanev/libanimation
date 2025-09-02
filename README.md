@@ -10,4 +10,4 @@ Library for Animations 🎦.
 - [ ] List of supported object files for loading/animating
 - [ ] GUI option ( Imgui )
 - [x] Creating shared library
-- [ ] Dynamically loading functions
+- [x] Dynamically loading functions
